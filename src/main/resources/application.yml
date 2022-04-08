@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/db_spring?createDatabaseIfNotExist=true&autoReconnect=true&serverTimezone=Asia/Jakarta
+  jpa:
+    database: MYSQL
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      debug: false
+redis:
+  host: localhost
+  port: 6379
+  password:
