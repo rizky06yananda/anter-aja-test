@@ -1,4 +1,7 @@
-1. Jawaban Soal 1
+# Test Anteraja
+
+1. Jawaban Soal 1 Untuk Melihat Codingan soal no 1 ada di file project ini pada class Soal1.java
+
 package com.test.rizky;
 
 public class Soal1 {
@@ -16,6 +19,7 @@ public class Soal1 {
 
 
 Output:
+
 3 ANTER
 5 AJA
 6 ANTER
@@ -46,12 +50,13 @@ Output:
 Process finished with exit code 0
 
 
-2. Jawaban Soal 2 (Palindrome)
-Code Input Aku, AJA
-package com.test.rizky;
+2. Jawaban Soal 2 (Palindrome) Untuk Melihat Codingan soal no 2 ada di file project ini pada class Palindrom.java
 
+Code Input Aku, AJA
 
 // run INPUT AKU
+
+package com.test.rizky;
 public class Palindrom {
     public static void main(String[] args){
         new Palindrom().palindrome("AKU");
@@ -74,6 +79,7 @@ public class Palindrom {
 }
 
 // run Input AJA
+
 public class Palindrom {
     public static void main(String[] args){
         new Palindrom().palindrome("AJA");
@@ -111,5 +117,7 @@ Untuk menjalankan API, lakukan langkah berikut
 1. mvn clean install -Dmaven.test.skip=true
 2. Vm option yang digunakan local, bisa menambahkan code berikut -Dspring.profiles.active=local
 3. jalankan redis dan mysql
-4. Untuk Dokumentasi Postman Bisa Akses Link Berikut https://www.getpostman.com/collections/e85250abd1685d0fea16
+4. Run RizkyApplication.java untuk jalankan backend
+5. Untuk Dokumentasi Postman Bisa Akses Link Berikut https://www.getpostman.com/collections/e85250abd1685d0fea16
 
+Terimakasih
